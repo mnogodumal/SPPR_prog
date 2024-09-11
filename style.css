@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70%;
+  min-width: 100%;
+}
+
+#fistForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#fistForm p {
+  padding-right: 15px;
+}
+
+#block b {
+  padding-right: 15px;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  align-items: center;
+}
+
+#fistForm input {
+  margin-left: 10px;
+}
+
+input[type="text"] {
+  width: 90%;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding-left: 10px;
+  height: 30px;
+}
+
+input[value="Продолжить"],
+input[value="Показать подробный вывод"] {
+  margin-left: 50px;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  width: 56.5%;
+  height: 30px;
+}
+
+table {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table p {
+  padding-left: 15%;
+}
+
+input[type="radio"] {
+  width: fit-content;
+}
+
+.minmaxForm {
+  display: flex;
+  align-items: center;
+}
+
+th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+
+td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+#bestRes {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+#bestRes p {
+  padding-left: 0;
+}
+
+#finalResults {
+  width: 40%;
+  font-size: 16px;
+  font-style: normal;
+}
